@@ -54,6 +54,7 @@ h2 {
 a {
     color: #adff2f;
     text-decoration: none;
+    width: 12.3rem;
 }
 
 a:hover {
@@ -222,6 +223,9 @@ td.expense {
     color: var(--red);
 }
 
+td.remove {
+    background: var(--red);
+}
 /* Modal */
 
 .modal-overlay {
@@ -280,11 +284,11 @@ input {
 }
 
 .input-group small {
-    opacity: 0.4;
+    opacity: 1;
 }
 
 .input-group.actions {
-    display: flex;
+    display: -webkit-inline-box;
     justify-content: space-between;
     align-items: center;
 }
